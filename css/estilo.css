@@ -1,0 +1,395 @@
+
+/*FORMATAÇÃO GERAL*/
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+}
+
+/*CABEÇALHO*/
+.logo img{ 
+    padding: 40px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4169e1;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li{
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+    padding: 1%;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 2px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*HEADER*/
+header{
+    background-image: url("../img/background_curriculo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(88, 88, 88);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+header p{
+   margin-bottom: 2em;
+   font-size: 1.7em;
+}
+
+.nome{
+    font-size: 3.5em;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #464646;
+    background-color: rgba(255, 255, 255, 0.517);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.384);;
+}
+
+#navbtn:hover{
+    color: rgb(255, 242, 3);
+    font-weight: bold;
+}
+
+.curriculo{
+    color:#fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #4169e1;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+
+.curriculo:hover{
+    color:#4169e1;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 0.8em;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.384);;
+}
+
+    /*SOBRE*/
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    background-color: #4169e1;
+    color: #fff;
+}
+
+#sobre h2{
+    margin-top: 20px;
+    font-size: 2em;  
+}
+
+.texto{
+    padding: 5px 30px;
+}
+
+/*ESPECIALIDADES*/
+#especialidades{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+#especialidades div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#especialidades p{
+    line-height: 1.5em;
+    margin: 2vh;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#especialidades img{
+    margin: 10px 0;
+}
+
+#especialidades h2{
+    font-size: 2em;
+}
+
+/*COMPETÊNCIAS*/
+#competencias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#competencias h2{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#competencias h3{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#competencias a{
+    text-decoration: none;
+}
+
+#competencias img{
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#competencias .comp p{
+    margin-top: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.trab img:hover{
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+/*CONTATO*/
+ #contato{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     background-color: #cae1ff;
+     width: 100%;
+ }
+ 
+ #contato h2{
+     margin-left: 20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     margin: width 20px;
+     font-size: 2em;
+     text-align: center;
+     color:#ffffff;
+ }
+
+ #contato > p{
+     margin-bottom: 20px;
+     font-size: 1.2em;
+     color: #000000;
+     text-align: center;
+ }
+
+ #contato{
+     text-decoration: none;
+     color: #4169e1;
+     text-align: center;
+ }
+
+ .bttop{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+	font-size: 1.6rem;
+	background-color: rgb(255, 121, 3);
+	padding: 10px;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	border-radius: 3px;
+	box-shadow: 3px 3px 10px #333;
+	z-index: 5;
+     
+ }
+
+ .bttop:hover{
+    color:  rgb(255, 121, 3);
+    background-color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: 10px;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	border-radius: 3px;
+	box-shadow: 3px 3px 10px #333;
+	z-index: 5;
+
+ }
+
+ #email{
+     text-decoration: none;
+     color: #fff;
+     font-weight: bold;
+ }
+
+ #email:hover{
+    color: rgb(255, 121, 3);
+    font-weight: bold;
+
+ }
+
+
+/*FOOTER*/
+footer{
+    text-align: center;
+    width: 100%;
+    background-color: #4169e1;
+    color: #f1f1f1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px){
+    
+    /*CABEÇALHO OU BARRA DE NAVEGAÇÃO*/
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul{
+        flex-direction: row;
+        width: 70%;
+    }
+
+    /*HEADER*/
+    header{
+        height: 60vh;
+        justify-content: center;
+
+    }
+
+    /*SOBRE*/
+    #sobre{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 90vh;
+        justify-content: center;
+        min-height: 80vh;
+    }
+
+    #sobre h2{
+        text-align: center;
+        width: 50%;
+    }
+
+    #sobre div{
+        flex-grow: 1;
+        flex-basis: 300px;
+        padding: 0 100px;
+    }
+
+    /*ESPECIALIDADES*/
+    #especialidades{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    #especialidades h2{
+        text-align: center;
+        width: 100%;
+    }
+
+    #especialidades div{
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+
+    /*COMPETÊNCIAS*/
+    #competencias{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #competencias h2,h3{
+        width: 100%;
+        text-align: center;
+    }
+
+    #competencias .comp{
+        width: 33.3333333333%;
+        text-align: center;
+    }
+
+    #contato{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        max-height: 40vh;
+        width: 100%;
+    }
+
+    #contato h2 p{
+        width: 100%;
+        text-align: center;
+    }
+}
