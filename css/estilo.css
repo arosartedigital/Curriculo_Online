@@ -1,5 +1,6 @@
 
-/*FORMATAÇÃO GERAL*/
+/****************** Formatação Geral ******************/
+
 html{
     scroll-behavior: smooth;
 }
@@ -21,7 +22,8 @@ p{
     width: 100%;
 }
 
-/*CABEÇALHO*/
+/****************** Cabeçalho ******************/
+
 .logo img{ 
     padding: 40px;
 }
@@ -58,7 +60,8 @@ nav ul li a{
 }
 
 
-/*HEADER*/
+/****************** Header ******************/
+
 header{
     background-image: url("../img/background_curriculo.jpg");
     background-size: cover;
@@ -70,6 +73,12 @@ header{
     align-items: center;
     text-align: center;
     padding: 30px;
+}
+
+header{
+    height: 60vh;
+    justify-content: center;
+
 }
 
 header p{
@@ -112,7 +121,8 @@ header p{
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.384);;
 }
 
-    /*SOBRE*/
+/****************** Sobre ******************/
+
 #sobre{
     display: flex;
     flex-direction: column;
@@ -131,7 +141,8 @@ header p{
     padding: 5px 30px;
 }
 
-/*ESPECIALIDADES*/
+/****************** Especialidades ******************/
+
 #especialidades{
     padding: 20px;
     display: flex;
@@ -164,7 +175,8 @@ header p{
     font-size: 2em;
 }
 
-/*COMPETÊNCIAS*/
+/****************** Competências ******************/
+
 #competencias{
     display: flex;
     flex-direction: column;
@@ -213,7 +225,8 @@ header p{
     transform: rotate(-5deg);
 }
 
-/*CONTATO*/
+/****************** Contato ******************/
+
  #contato{
      display: flex;
      flex-direction: column;
@@ -290,7 +303,8 @@ header p{
  }
 
 
-/*FOOTER*/
+/****************** Footer ******************/
+
 footer{
     text-align: center;
     width: 100%;
@@ -313,14 +327,8 @@ footer{
         width: 70%;
     }
 
-    /*HEADER*/
-    header{
-        height: 60vh;
-        justify-content: center;
+    /****************** Sobre ******************/
 
-    }
-
-    /*SOBRE*/
     #sobre{
         flex-direction: row;
         flex-wrap: wrap;
@@ -341,7 +349,8 @@ footer{
         padding: 0 100px;
     }
 
-    /*ESPECIALIDADES*/
+    /****************** Especialidades ******************/
+
     #especialidades{
         flex-direction: row;
         flex-wrap: wrap;
@@ -361,7 +370,7 @@ footer{
         padding: 0 10px;
     }
 
-    /*COMPETÊNCIAS*/
+    /****************** Competências ******************/
     #competencias{
         flex-direction: row;
         flex-wrap: wrap;
